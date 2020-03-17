@@ -12,6 +12,5 @@ namespace ToDoList.Controllers
       Item starterItem = new Item();
       return View(starterItem);
     }
-
   }
 }
