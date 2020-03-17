@@ -44,7 +44,16 @@ namespace ToDoList.Models
 
     public static void ClearAll()
     {
-      
+      MySqlConnection conn = DB.Connection();
+     conn.Open();
+     MySqlCommand cmd = conn.CreateCommand() as MySqlCommand;
+     cmd.CommandText = @"DELETE FROM items;";
+     cmd.ExecuteNonQuery();
+     conn.Close();
+     if (conn != null)
+     {
+      conn.Dispose();
+     }
     }
 
     public static Item Find(int searchId)
@@ -54,6 +63,18 @@ namespace ToDoList.Models
     return placeholderItem;
     }
 
-
+    public override bool Equals(System.Object otherItem)
+    {
+      if (!(otherItem is Item))
+      {
+        return false;
+      }
+      else
+      {
+        Item newItem = (Item) otherItem;
+        bool descriptionEquality = (this.Description == newItem.Description);
+        return descriptionEquality;
+      }
+    }
   }
 }
