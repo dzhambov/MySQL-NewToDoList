@@ -22,6 +22,7 @@ namespace ToDoList.Controllers
     }
     public ActionResult Create()
     {
+      ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Name");
       return View();
     }
     [HttpPost]
@@ -40,6 +41,7 @@ namespace ToDoList.Controllers
     public ActionResult Edit(int id)
     {
       var thisItem = _db.Items.FirstOrDefault(items => items.ItemId == id);
+      ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "Name");
       return View(thisItem);
     }
 
