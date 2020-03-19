@@ -42,6 +42,11 @@ _Note For Editors:_
 * To confirm installation was successful, run the ```$ dotnet --version``` command in your terminal
 * Install dotnet script, run the ```$ dotnet tool install -g dotnet-script``` command in your terminal
 * Restart your terminal to complete installation, and run the ```$ dotnet run``` command to run application within your terminal - Note: To exit, simply press ```Ctrl + C```
+* Open project's productions directory within your terminal ```$ cd ToDoList.Solution/ToDoList```
+* Run the command ```> dotnet restore```
+* Run the command ```> dotnet build``` 
+* If build is successful, run the command ```> dotnet run```, if build failed, make necessary updates and repeat ```> dotnet restore``` followed by ```> dotnet build```
+
 
 Installing MySQL | MacOS
 * Download the MySQL Community Server DMG File from [MySQL Community Server](https://dev.mysql.com/downloads/file/?id=484914)
