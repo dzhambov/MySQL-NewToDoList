@@ -54,17 +54,18 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 
 ## Technologies Used
 
-* _Git_
-* _C#_
-* _.NET Core 2.2_
-* _dotnet script_
-* _VS Code_
-* _MVC framework_
-* _CRUD functionality_
+* _Git 2.23.0_
+* _C# language_
+* _.NET Core 2.2.106_
+* _dotnet script 0.50.1_
+* _VS Code 1.43.1_
+* _Model-View-Controller(MVC) framework_
+* _Creat, Read, Update, Delete(CRUD) functionality_
 * _MySQL_
 * _MySQL Workbench_
-* _Entity Core framework_
-* _LINQ_
+* _Entity Framework Core_
+* _Language-Integrated Query(LINQ)_
+* _ASP.NET Razor_
 
 ### License
 
