@@ -59,11 +59,11 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 * _.NET Core 2.2.106_
 * _dotnet script 0.50.1_
 * _VS Code 1.43.1_
-* _Model-View-Controller(MVC) framework_
+* _Model-View-Controller(MVC) Framework_
 * _Creat, Read, Update, Delete(CRUD) functionality_
-* _MySQL_
-* _MySQL Workbench_
-* _Entity Framework Core_
+* _MySQL 8.0.15_
+* _MySQL Workbench 8.0.15_
+* _Entity Framework Core 2.2.4_
 * _Language-Integrated Query(LINQ)_
 * _ASP.NET Razor_
 
