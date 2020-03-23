@@ -36,18 +36,6 @@ _Download Manually:_
 * Click downloaded file to unzip.
 * Open folder called "WordCounter.Solution".
 
-_Note For Editors:_ 
-* Download the .NET Core SDK [Software Development Kit](https://dotnet.microsoft.com/download)
-* Open the .Net Core SDK file and install
-* To confirm installation was successful, run the ```$ dotnet --version``` command in your terminal
-* Install dotnet script, run the ```$ dotnet tool install -g dotnet-script``` command in your terminal
-* Restart your terminal to complete installation, and run the ```$ dotnet run``` command to run application within your terminal - Note: To exit, simply press ```Ctrl + C```
-* Open project's productions directory within your terminal ```$ cd ToDoList.Solution/ToDoList```
-* Run the command ```> dotnet restore```
-* Run the command ```> dotnet build``` 
-* If build is successful, run the command ```> dotnet run```, if build failed, make necessary updates and repeat ```> dotnet restore``` followed by ```> dotnet build```
-
-
 Installing MySQL | MacOS
 * Download the MySQL Community Server DMG File from [MySQL Community Server](https://dev.mysql.com/downloads/file/?id=484914)
 * You can exit the mysql program by entering ```exit```.
@@ -73,6 +61,16 @@ Installing MySQL | MacOS
 
   > CREATE TABLE `items` (`ItemId` PRIMARY KEY, `Description` VARCHAR(255), `CategoryId` INT));
 
+_Note For Editors:_ 
+* Download the .NET Core SDK [Software Development Kit](https://dotnet.microsoft.com/download)
+* Open the .Net Core SDK file and install
+* To confirm installation was successful, run the ```$ dotnet --version``` command in your terminal
+* Install dotnet script, run the ```$ dotnet tool install -g dotnet-script``` command in your terminal
+* Restart your terminal to complete installation, and run the ```$ dotnet run``` command to run application within your terminal - Note: To exit, simply press ```Ctrl + C```
+* Open project's productions directory within your terminal ```$ cd ToDoList.Solution/ToDoList```
+* Run the command ```> dotnet restore```
+* Run the command ```> dotnet build``` 
+* If build is successful, run the command ```> dotnet run```, if build failed, make necessary updates and repeat ```> dotnet restore``` followed by ```> dotnet build```
 
 ## Known Bugs
 
